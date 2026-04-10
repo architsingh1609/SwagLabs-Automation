@@ -1,0 +1,6 @@
+target/
+test-output/
+*.log
+.DS_Store
+y
+

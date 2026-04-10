@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="26" passed="26" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-10T07:01:42 IST" name="SwagLabs Suite" finished-at="2026-04-10T07:02:34 IST" duration-ms="52378">
+    <groups>
+    </groups>
+    <test started-at="2026-04-10T07:01:42 IST" name="Login Tests" finished-at="2026-04-10T07:01:50 IST" duration-ms="7865">
+      <class name="Swaglabes.logintestsenario">
+        <test-method is-config="true" signature="loadsite()[pri:0, instance:Swaglabes.logintestsenario@1fa121e2]" started-at="2026-04-10T07:01:42 IST" name="loadsite" finished-at="2026-04-10T07:01:44 IST" duration-ms="1621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadsite -->
+        <test-method signature="invalid2()[pri:0, instance:Swaglabes.logintestsenario@1fa121e2]" started-at="2026-04-10T07:01:49 IST" name="invalid2" finished-at="2026-04-10T07:01:49 IST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid2 -->
+        <test-method signature="invalid3()[pri:0, instance:Swaglabes.logintestsenario@1fa121e2]" started-at="2026-04-10T07:01:49 IST" name="invalid3" finished-at="2026-04-10T07:01:49 IST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid3 -->
+        <test-method signature="invalid4()[pri:0, instance:Swaglabes.logintestsenario@1fa121e2]" started-at="2026-04-10T07:01:49 IST" name="invalid4" finished-at="2026-04-10T07:01:49 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid4 -->
+        <test-method signature="invalid5()[pri:0, instance:Swaglabes.logintestsenario@1fa121e2]" started-at="2026-04-10T07:01:49 IST" name="invalid5" finished-at="2026-04-10T07:01:50 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid5 -->
+        <test-method signature="invalid6()[pri:0, instance:Swaglabes.logintestsenario@1fa121e2]" started-at="2026-04-10T07:01:50 IST" name="invalid6" finished-at="2026-04-10T07:01:50 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid6 -->
+        <test-method signature="invalidpass1()[pri:0, instance:Swaglabes.logintestsenario@1fa121e2]" started-at="2026-04-10T07:01:50 IST" name="invalidpass1" finished-at="2026-04-10T07:01:50 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidpass1 -->
+        <test-method signature="validdetails()[pri:0, instance:Swaglabes.logintestsenario@1fa121e2]" started-at="2026-04-10T07:01:50 IST" name="validdetails" finished-at="2026-04-10T07:01:50 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validdetails -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:Swaglabes.logintestsenario@1fa121e2]" started-at="2026-04-10T07:01:50 IST" name="quit" finished-at="2026-04-10T07:01:50 IST" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Swaglabes.logintestsenario -->
+      <class name="Swaglabes.Login">
+        <test-method is-config="true" signature="Opening()[pri:0, instance:Swaglabes.Login@185a6e9]" started-at="2026-04-10T07:01:44 IST" name="Opening" finished-at="2026-04-10T07:01:45 IST" duration-ms="1330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Opening -->
+        <test-method signature="username()[pri:1, instance:Swaglabes.Login@185a6e9]" started-at="2026-04-10T07:01:45 IST" name="username" finished-at="2026-04-10T07:01:45 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- username -->
+        <test-method is-config="true" signature="Opening()[pri:0, instance:Swaglabes.Login@185a6e9]" started-at="2026-04-10T07:01:45 IST" name="Opening" finished-at="2026-04-10T07:01:46 IST" duration-ms="1366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Opening -->
+        <test-method signature="password()[pri:2, instance:Swaglabes.Login@185a6e9]" started-at="2026-04-10T07:01:46 IST" name="password" finished-at="2026-04-10T07:01:46 IST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- password -->
+        <test-method is-config="true" signature="Opening()[pri:0, instance:Swaglabes.Login@185a6e9]" started-at="2026-04-10T07:01:46 IST" name="Opening" finished-at="2026-04-10T07:01:48 IST" duration-ms="1373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Opening -->
+        <test-method signature="Button()[pri:3, instance:Swaglabes.Login@185a6e9]" started-at="2026-04-10T07:01:48 IST" name="Button" finished-at="2026-04-10T07:01:48 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Button -->
+        <test-method is-config="true" signature="Opening()[pri:0, instance:Swaglabes.Login@185a6e9]" started-at="2026-04-10T07:01:48 IST" name="Opening" finished-at="2026-04-10T07:01:49 IST" duration-ms="1269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Opening -->
+        <test-method signature="fullacces()[pri:4, instance:Swaglabes.Login@185a6e9]" started-at="2026-04-10T07:01:49 IST" name="fullacces" finished-at="2026-04-10T07:01:49 IST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fullacces -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Swaglabes.Login@185a6e9]" started-at="2026-04-10T07:01:50 IST" name="close" finished-at="2026-04-10T07:01:50 IST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Swaglabes.Login -->
+    </test> <!-- Login Tests -->
+    <test started-at="2026-04-10T07:01:50 IST" name="Add To Cart Basic" finished-at="2026-04-10T07:01:51 IST" duration-ms="1563">
+      <class name="Swaglabes.addtocart">
+        <test-method is-config="true" signature="login()[pri:0, instance:Swaglabes.addtocart@6913c1fb]" started-at="2026-04-10T07:01:50 IST" name="login" finished-at="2026-04-10T07:01:51 IST" duration-ms="1525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addtocart()[pri:0, instance:Swaglabes.addtocart@6913c1fb]" started-at="2026-04-10T07:01:51 IST" name="addtocart" finished-at="2026-04-10T07:01:51 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocart -->
+      </class> <!-- Swaglabes.addtocart -->
+    </test> <!-- Add To Cart Basic -->
+    <test started-at="2026-04-10T07:01:51 IST" name="Add To Cart Scenario" finished-at="2026-04-10T07:01:57 IST" duration-ms="5503">
+      <class name="Swaglabes.addtocartsenario$logintestsenario">
+        <test-method is-config="true" signature="loadsite()[pri:0, instance:Swaglabes.addtocartsenario$logintestsenario@5fbe4146]" started-at="2026-04-10T07:01:51 IST" name="loadsite" finished-at="2026-04-10T07:01:52 IST" duration-ms="927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadsite -->
+        <test-method signature="validdetails()[pri:1, instance:Swaglabes.addtocartsenario$logintestsenario@5fbe4146]" started-at="2026-04-10T07:01:52 IST" name="validdetails" finished-at="2026-04-10T07:01:56 IST" duration-ms="4090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validdetails -->
+        <test-method signature="filter()[pri:2, instance:Swaglabes.addtocartsenario$logintestsenario@5fbe4146]" started-at="2026-04-10T07:01:56 IST" name="filter" finished-at="2026-04-10T07:01:57 IST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filter -->
+        <test-method signature="addtocartedting()[pri:3, instance:Swaglabes.addtocartsenario$logintestsenario@5fbe4146]" started-at="2026-04-10T07:01:57 IST" name="addtocartedting" finished-at="2026-04-10T07:01:57 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocartedting -->
+        <test-method signature="checkout()[pri:4, instance:Swaglabes.addtocartsenario$logintestsenario@5fbe4146]" started-at="2026-04-10T07:01:57 IST" name="checkout" finished-at="2026-04-10T07:01:57 IST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+        <test-method signature="total()[pri:5, instance:Swaglabes.addtocartsenario$logintestsenario@5fbe4146]" started-at="2026-04-10T07:01:57 IST" name="total" finished-at="2026-04-10T07:01:57 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- total -->
+        <test-method signature="finalpayment()[pri:6, instance:Swaglabes.addtocartsenario$logintestsenario@5fbe4146]" started-at="2026-04-10T07:01:57 IST" name="finalpayment" finished-at="2026-04-10T07:01:57 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalpayment -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:Swaglabes.addtocartsenario$logintestsenario@5fbe4146]" started-at="2026-04-10T07:01:57 IST" name="quit" finished-at="2026-04-10T07:01:57 IST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Swaglabes.addtocartsenario$logintestsenario -->
+    </test> <!-- Add To Cart Scenario -->
+    <test started-at="2026-04-10T07:01:57 IST" name="Product Flow" finished-at="2026-04-10T07:02:11 IST" duration-ms="13933">
+      <class name="Swaglabes.product">
+        <test-method is-config="true" signature="site()[pri:0, instance:Swaglabes.product@5aebe890]" started-at="2026-04-10T07:01:57 IST" name="site" finished-at="2026-04-10T07:02:01 IST" duration-ms="3602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- site -->
+        <test-method signature="producttocart()[pri:1, instance:Swaglabes.product@5aebe890]" started-at="2026-04-10T07:02:01 IST" name="producttocart" finished-at="2026-04-10T07:02:06 IST" duration-ms="5043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- producttocart -->
+        <test-method signature="filter()[pri:2, instance:Swaglabes.product@5aebe890]" started-at="2026-04-10T07:02:06 IST" name="filter" finished-at="2026-04-10T07:02:11 IST" duration-ms="5087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filter -->
+        <test-method signature="cart()[pri:3, instance:Swaglabes.product@5aebe890]" started-at="2026-04-10T07:02:11 IST" name="cart" finished-at="2026-04-10T07:02:11 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cart -->
+        <test-method signature="checkout()[pri:4, instance:Swaglabes.product@5aebe890]" started-at="2026-04-10T07:02:11 IST" name="checkout" finished-at="2026-04-10T07:02:11 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+      </class> <!-- Swaglabes.product -->
+    </test> <!-- Product Flow -->
+    <test started-at="2026-04-10T07:02:11 IST" name="Logout Test" finished-at="2026-04-10T07:02:20 IST" duration-ms="9086">
+      <class name="Swaglabes.logout">
+        <test-method is-config="true" signature="site()[pri:0, instance:Swaglabes.logout@6a2f6f80]" started-at="2026-04-10T07:02:11 IST" name="site" finished-at="2026-04-10T07:02:15 IST" duration-ms="3908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- site -->
+        <test-method signature="logout()[pri:0, instance:Swaglabes.logout@6a2f6f80]" started-at="2026-04-10T07:02:15 IST" name="logout" finished-at="2026-04-10T07:02:20 IST" duration-ms="5092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Swaglabes.logout@6a2f6f80]" started-at="2026-04-10T07:02:20 IST" name="close" finished-at="2026-04-10T07:02:20 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Swaglabes.logout -->
+    </test> <!-- Logout Test -->
+    <test started-at="2026-04-10T07:02:20 IST" name="Search Output" finished-at="2026-04-10T07:02:34 IST" duration-ms="14401">
+      <class name="Swaglabes.searchoutput$logintestsenario">
+        <test-method is-config="true" signature="loadsite()[pri:0, instance:Swaglabes.searchoutput$logintestsenario@4c39bec8]" started-at="2026-04-10T07:02:20 IST" name="loadsite" finished-at="2026-04-10T07:02:21 IST" duration-ms="945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadsite -->
+        <test-method signature="validdetails()[pri:1, instance:Swaglabes.searchoutput$logintestsenario@4c39bec8]" started-at="2026-04-10T07:02:21 IST" name="validdetails" finished-at="2026-04-10T07:02:25 IST" duration-ms="4090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validdetails -->
+        <test-method signature="filter()[pri:2, instance:Swaglabes.searchoutput$logintestsenario@4c39bec8]" started-at="2026-04-10T07:02:25 IST" name="filter" finished-at="2026-04-10T07:02:25 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filter -->
+        <test-method signature="removeproduct()[pri:3, instance:Swaglabes.searchoutput$logintestsenario@4c39bec8]" started-at="2026-04-10T07:02:25 IST" name="removeproduct" finished-at="2026-04-10T07:02:34 IST" duration-ms="9105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeproduct -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:Swaglabes.searchoutput$logintestsenario@4c39bec8]" started-at="2026-04-10T07:02:34 IST" name="quit" finished-at="2026-04-10T07:02:34 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Swaglabes.searchoutput$logintestsenario -->
+    </test> <!-- Search Output -->
+  </suite> <!-- SwagLabs Suite -->
+</testng-results>

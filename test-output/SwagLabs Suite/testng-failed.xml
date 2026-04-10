@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SwagLabs Suite]">
+  <test thread-count="5" name="Add To Cart Scenario(failed)">
+    <classes>
+      <class name="Swaglabes.addtocartsenario$logintestsenario">
+        <methods>
+          <include name="total"/>
+          <include name="addtocartedting"/>
+          <include name="loadsite"/>
+          <include name="finalpayment"/>
+          <include name="checkout"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- Swaglabes.addtocartsenario$logintestsenario -->
+    </classes>
+  </test> <!-- Add To Cart Scenario(failed) -->
+  <test thread-count="5" name="Product Flow(failed)">
+    <classes>
+      <class name="Swaglabes.product">
+        <methods>
+          <include name="checkout"/>
+          <include name="site"/>
+        </methods>
+      </class> <!-- Swaglabes.product -->
+    </classes>
+  </test> <!-- Product Flow(failed) -->
+</suite> <!-- Failed suite [SwagLabs Suite] -->

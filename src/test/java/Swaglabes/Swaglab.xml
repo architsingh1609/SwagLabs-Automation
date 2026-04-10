@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SwagLabs Suite" parallel="false">
+
+    <!-- Login Test Scenarios -->
+    <test name="Login Tests">
+        <classes>
+            <class name="Swaglabes.Login"/>
+            <class name="Swaglabes.logintestsenario"/>
+        </classes>
+    </test>
+
+    <!-- Add to Cart Basic Test -->
+    <test name="Add To Cart Basic">
+        <classes>
+            <class name="Swaglabes.addtocart"/>
+        </classes>
+    </test>
+
+    <!-- Add to Cart Full Scenario -->
+    <test name="Add To Cart Scenario">
+        <classes>
+            <class name="Swaglabes.addtocartsenario"/>
+        </classes>
+    </test>
+
+    <!-- Product Flow -->
+    <test name="Product Flow">
+        <classes>
+            <class name="Swaglabes.product"/>
+        </classes>
+    </test>
+
+    <!-- Logout Test -->
+    <test name="Logout Test">
+        <classes>
+            <class name="Swaglabes.logout"/>
+        </classes>
+    </test>
+
+    <!-- Search / Remove Scenario -->
+    <test name="Search Output">
+        <classes>
+            <class name="Swaglabes.searchoutput"/>
+        </classes>
+    </test>
+
+</suite>
