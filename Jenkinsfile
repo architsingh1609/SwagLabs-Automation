@@ -2,13 +2,14 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven'
+        maven 'Maven3'
     }
 
     stages {
+
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/architsingh1609/SwagLabs-Automation.git'
+                checkout scm
             }
         }
 
@@ -21,6 +22,12 @@ pipeline {
         stage('Run Tests') {
             steps {
                 sh 'mvn test'
+            }
+        }
+
+        stage('Post Actions') {
+            steps {
+                echo 'Execution Completed'
             }
         }
     }
